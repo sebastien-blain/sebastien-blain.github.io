@@ -1,7 +1,7 @@
 {
     "theme_color": "#222",
     "background_color": "#222",
-    "display": "browser",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "Sebastien's Portfolio",
