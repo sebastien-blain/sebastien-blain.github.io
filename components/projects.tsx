@@ -33,7 +33,7 @@ export default function Projects() {
                     <ProjectCard
                         title='Smart-Home-Simulator'
                         subTitle='JavaFX, MySQL'
-                        info='led a team of 5 students in creating a desktop Java application that allows users to simulate the environment of a smart home. Users can open/close doors, windows and lights, place individuals in various rooms, simulate a security scenario and simulate a heating scenario. Design of the house is fully customizable through a json file.'
+                        info='Led a team of 5 students in creating a desktop Java application that allows users to simulate the environment of a smart home. Users can open/close doors, windows and lights, place individuals in various rooms, simulate a security scenario and simulate a heating scenario. Design of the house is fully customizable through a json file.'
                         img={Simulator.src}
                         link='https://github.com/sebastien-blain/Smart-Home-Simulator' />
                     <ProjectCard
