@@ -1,11 +1,12 @@
 {
     "theme_color": "#222",
     "background_color": "#222",
-    "display": "standalone",
+    "display": "browser",
     "scope": "/",
     "start_url": "/",
     "name": "Sebastien's Portfolio",
-    "short_name": "Sebastien's Porfolio",
+    "short_name": "Sebastien's Portfolio",
+    "description": "A website all about me.",
     "icons": [
         {
             "src": "/icon-192x192.png",
@@ -27,6 +28,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "description": "Porfolio showing description and projects."
+    ]
 }
