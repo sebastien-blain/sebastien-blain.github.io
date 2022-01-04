@@ -2,27 +2,29 @@ import React from 'react';
 
 interface card {
     link: string,
-    img: string,
+    img: string[],
     title: string,
     subTitle: string,
+    date: string,
     info: string
 }
 
 export default function ProjectCard(props: card) {
     const render = props.link !== '';
     return (
-        <div className="w3-col w3-margin-bottom">
-            <div className="w3-card">
-                <img src={props.img} alt="project" style={{ width: '100%', height: "80%" }} />
-                <div className="w3-container">
-                    <h3>{props.title}</h3>
-                    <p className="w3-opacity">{props.subTitle}</p>
-                    <p>{props.info}</p>
-                    <p>{render ?
-                        <a href={props.link} target="_blank" rel="noopener noreferrer" className="w3-button w3-light-grey w3-block">See on Github</a> : ''}
-                    </p>
+        <div className="w3-col w3-margin-bottom" style={{ cursor:"pointer" }}>
+            <span className="portfolio-item d-block">
+                <div className={"foto"}>
+                    <div>
+                <img src={props.img[0]} alt="project" style={{marginBottom: 0, paddingBottom: 0, position: 'relative', width: "100%"}} />
+                    <span className="project-date">{props.date}</span>
+                  <br />
+                  <p className="project-title-settings mt-3">
+                    {props.title}
+                  </p>
+                    </div>
                 </div>
-            </div>
+            </span>
         </div>
 
     );

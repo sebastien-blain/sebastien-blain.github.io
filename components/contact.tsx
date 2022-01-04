@@ -3,7 +3,7 @@ import QR from "../images/qr.png";
 
 export default function Contact() {
     return (
-        <div className="w3-container w3-light-grey" style={{ padding: '80px 16px' }} id="contact" >
+        <div className="w3-container w3-light-grey" style={{ padding: '80px 16px 0 0' }} id="contact" >
             <h3 className="w3-center">CONTACT</ h3>
             <div style={{ marginTop: '48px' }}>
                 <a style={{ textDecoration: 'none' }} className="contactIcon w3-large" href={'./CV_Sebastien_Blain-Nadeau_en_fr_2021.pdf'} download ><p className="w3-center"><i className="fa fa-file-pdf-o fa-fw w3-xxlarge w3-margin-right"/> Resume</ p></a>
@@ -14,6 +14,7 @@ export default function Contact() {
                 <div className="w3-center">
                     <img src={QR.src} alt={'qr code'} width={320} height={320}/>
                 </div>
+              <p className="w3-center">Copyright &copy; Sébastien Blain-Nadeau</p>
             </ div>
         </ div >
     );

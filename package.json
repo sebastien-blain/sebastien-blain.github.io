@@ -9,17 +9,25 @@
     "deploy": "next build && next export && type nul > ./out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.7",
     "next": "12.0.7",
     "next-pwa": "^5.4.4",
     "react": "17.0.2",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "17.0.2",
     "react-masonry-css": "^1.0.16",
-    "react-scroll": "^1.8.4"
+    "react-material-ui-carousel": "^3.1.1",
+    "react-scroll": "^1.8.4",
+    "react-vertical-timeline-component": "^3.5.2"
   },
   "devDependencies": {
     "@types/node": "17.0.6",
     "@types/react": "17.0.38",
     "@types/react-scroll": "^1.8.3",
+    "@types/react-vertical-timeline-component": "^3.3.1",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
     "typescript": "4.5.4"

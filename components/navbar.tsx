@@ -21,7 +21,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <div className="w3-top">
+            <div className="w3-top" style={{zIndex:"15"}}>
                 <div className="w3-bar w3-card" id="myNavbar">
                     <Link
                         activeClass="active"
@@ -50,6 +50,15 @@ export default function Navbar() {
                             offset={-70}
                             duration={500}>
                             <div className={"navitem w3-bar-item w3-button"}><i className="fa fa-user"/> ABOUT</div >
+                        </Link >
+                        <Link
+                          activeClass="active"
+                          to="experience"
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}>
+                            <div className={"navitem w3-bar-item w3-button"}><i className="fa fa-hourglass-3"/> EXPERIENCE</div >
                         </Link >
                         <Link
                             activeClass="active"
@@ -97,6 +106,15 @@ export default function Navbar() {
                     duration={500}>
                     <div onClick={close} className="w3-bar-item w3-button">ABOUT</div>
                 </Link>
+                <Link
+                  activeClass="active"
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                    <div onClick={close} className="w3-bar-item w3-button">EXPERIENCE</div>
+                </Link >
                 <Link
                     activeClass="active"
                     to="projects"

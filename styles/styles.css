@@ -13,6 +13,14 @@ body, html {
   height: 100vh;
 }
 
+.experience {
+  background-color: #222;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+  box-shadow: 0 -4px 0 #F27604;
+}
+
 .w3-bar .w3-button {
   padding: 16px;
 }
@@ -26,6 +34,7 @@ body, html {
 }
 #myNavbar{
   background-color: #222;
+  z-index: -15;
 }
 
 .my-masonry-grid {
@@ -44,3 +53,148 @@ body, html {
 .my-masonry-grid_column > div {
   margin-bottom: 30px;
 }
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container {
+  height: 50px;
+}
+
+.title-styles {
+  font-family: 'Raleway', sans-serif;
+  font-size: 250%;
+}
+
+
+.project-date {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 15px 2px 15px;
+  position: relative;
+  z-index: -500;
+  border-top: 5px solid #696969;
+  border-radius: 0 0 5px 5px;
+  background-color: #696969;
+  color: white;
+}
+
+
+.foto img {
+  display: block;
+  width: 100%;
+}
+
+.foto {
+  display: flex;
+}
+
+.foto div {
+  background: #f1f1f1;
+  color: #222;
+  display: inline-block;
+  margin: 0 auto 5% auto;
+  padding: 10px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.foto div:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+
+.foto div:hover {
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.project-title-settings {
+  margin-top: 5%;
+  font: 18px/24px 'Raleway', sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #222;
+  text-align: center;
+}
+
+#preview {
+  width: 500px;
+  background-color: #ebeaf5;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 15%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-inside .modal-content {
+  background: white;
+}
+
+.modal-close {
+  text-align: right;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+}
+
+
+.modal-description {
+  text-align: justify;
+  padding: 5px 5px 0 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+
+.awssld__content img {
+  object-fit: cover;
+  width: auto!important;
+  height: 100%!important;
+  position: relative!important;
+  top: 0;
+  left: 0;
+}
+.awssld__content {
+  background-color: white!important;
+  overflow: hidden!important;
+  display: -moz-box!important;
+  display: flex!important;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: center;
+  justify-content: center;
+}
+
