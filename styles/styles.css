@@ -197,4 +197,6 @@ html {
   -moz-box-pack: center;
   justify-content: center;
 }
-
+.vertical-timeline-element-date{
+  font-size: 16px!important;
+}
