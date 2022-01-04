@@ -101,7 +101,7 @@ export default function Experience() {
                     {work.company}
                 </div>
               <div style={{ textAlign: "left", marginTop: "15px" }}>{work.technologies.map((tech) => {
-                return (<Chip key={tech} label={tech} style={{backgroundColor:'#F27604', color: "#FFF", fontFamily: "Raleway", margin: "4px 2px", borderRadius: 8}} />)
+                return (<Chip key={tech} label={tech} style={{backgroundColor:'#F27604', color: "#FFF", fontFamily: "Raleway", fontSize: '12px' , margin: "4px 2px", borderRadius: 8}} />)
               })}</div>
               <ul style={{ textAlign: "left", marginTop: "15px" }}>{work.description.map((desc) => {
                 return (<li key={desc} >{desc}</li>)
