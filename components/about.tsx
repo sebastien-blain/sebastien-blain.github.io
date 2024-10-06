@@ -15,11 +15,11 @@ export default function About() {
                     <img src={Pic.src} className="w3-round w3-image " alt={'Profile picture'} style={{borderRadius: "64px", width: "75%", backgroundColor: "#222", padding: '8px'}}/>
                 </div>
                 <div className="w3-col m6" style={{padding: "0 3vw"}}>
-                    <p>I&apos;m currently a 4<sup>th</sup> year Software Engineering student at Concordia University. </p>
-                    <p>My education to date has allowed me to learn, apply knowledge in a group environment and experiment with some of the latest programming technologies, including Python, C# and Java. Through projects and Hackathons, I have also learned about Web development for back-end and enough front-end to build and show you this fabulous website <span role="img" aria-label="smilling emoji">&#128512;</span></p>
-                    <p>During my internships at <a href="https://accedian.com/" target="_blank" rel="noopener noreferrer"><b>Accedian</b></a> and <a href="https://www.genetec.com/" target="_blank" rel="noopener noreferrer"><b>Genetec</b></a>, I used my skills and participated in the agile development of real-life applications that are used by clients all over the world. <br/> My last internship and current employment is at <a href="https://www.conova.ai/" target="_blank" rel="noopener noreferrer"><b>Conova</b></a> where I am a full-stack developer responsible of the development of the API for our new DreamX application. </p>
-                    <p>In the future, I aspire to work with <b>Artificial Intelligence</b> &amp; <b>Machine Learning</b> to develop amazing applications that will impact the lives of many.</p>
-                </div>
+                    <p>I am currently a Software Development Engineer II at Amazon Ads.</p>
+                    <p>Over the past two years, I have developed scalable backend systems for the Ads Media Planning team, utilizing big data and machine learning to enhance global advertising solutions.</p>
+                    <p>I hold a Bachelor's degree in Software Engineering with Great Distinction from Concordia University, where I gained a strong foundation in software engineering principles and design methodologies.</p>
+                    <p>During my internships at <a href="https://www.conova.ai/" target="_blank" rel="noopener noreferrer"><b>Conova</b></a>, <a href="https://www.genetec.com/" target="_blank" rel="noopener noreferrer"><b>Genetec</b></a>, and <a href="https://accedian.com/" target="_blank" rel="noopener noreferrer"><b>Accedian</b></a>, I honed my skills in full-stack development, API design, and system integration, preparing me to tackle complex technical challenges in a fast-paced environment.</p>
+                    </div>
             </div>
         </div>
     );

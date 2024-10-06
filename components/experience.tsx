@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 
 import { Chip } from '@mui/material';
+import Amazon from '../images/amazon.png';
 import Genetec from '../images/genetec.png';
 import Accedian from '../images/accedian.png';
 import Conova from '../images/conova.png';
@@ -24,6 +25,33 @@ interface work {
 export default function Experience() {
 
     const experiences: work[] = [
+      {
+        title: "Software Development Engineer II",
+        subtitle: "",
+        company: "Amazon Ads",
+        image: Amazon.src,
+        url: "https://advertising.amazon.com/insights-and-planning/media-planning",
+        mainTechnology: "Java",
+        technologies: ["Java", "Python", "Typescript", "AWS Lambda", "AWS ECS", "AWS EMR", "AWS DynamoDB", "AWS S3", "AWS API Gateway"],
+        date: "April 2024 - Present",
+        icon: "fa fa-code w3-xlarge",
+        description: ["Designed and implemented public APIs for reach forecasting across various dimensions, including supply, audiences, demographics, and geography, facilitating reach deduplication and assessing the incremental impact of different ad products.",
+          "Collaborated with Applied Scientists to train, test, and deploy machine learning models that support media planning applications, effectively handling big data at scales of terabytes.",
+          "Mentored junior developers on API design principles and best practices, fostering a culture of knowledge sharing and continuous improvement within the team."
+        ]
+      },
+      {
+        title: "Software Development Engineer",
+        subtitle: "",
+        company: "Amazon Ads",
+        image: Amazon.src,
+        url: "https://advertising.amazon.com/insights-and-planning/media-planning",
+        mainTechnology: "Java",
+        technologies: ["Java", "Python", "Typescript", "AWS Lambda", "AWS ECS", "AWS EMR", "AWS DynamoDB", "AWS S3", "AWS API Gateway"],
+        date: "July 2022 - April 2024",
+        icon: "fa fa-code w3-xlarge",
+        description: ["Developed and enhanced the Channel Planner application, enabling advertisers to create detailed media plans using Amazon’s unique first- and third-party insights."]
+      },
       {
         title: "Cloud Developer",
         subtitle: "Cloud Developer Intern (4 months)",
